@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPU Smart Report</title>
+    <style>
+        @media print {
+
+            @page {
+                margin: 0;
+                size: A4;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                margin: 0;
+            }
+
+            .footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 0px 20px;
+                background-color: #82423C !important;
+                color: #fff !important;
+                border-top: 1px solid #ccc;
+            }
+
+            .main-content {
+                padding-bottom: 50mm;
+            }
+        }
+    </style>
+</head>
+
+<body style=" font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            min-height: 100vh;
+            position: relative;">
+
+    <div style="width: 210mm;
+            height: 297mm;
+            margin: auto;
+            border: 1px solid #ccc;
+            background: #fff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;">
+        <div style=" flex-grow: 1; padding: 20px;">
+            <div style="margin-bottom: 20px;margin-top: 30px; text-align: center;">
+                <p style="margin: 0; font-weight: bold;">Dummy / PID : 3772378</p>
+            </div>
+            <hr>
+            <div style="margin-bottom: 20px;">
+                <h1 style="margin: 10px 0; font-size: 18px; color: #82423C;">DPU Smart Report</h1>
+                <p style="margin: 0; font-size: 14px; color: #555;">A Self explanatory Health Diagnostics Report</p>
+            </div>
+
+            <hr>
+            <div style="margin-bottom: 30px;">
+                <p style="font-size: 14px; line-height: 1.6; font-weight: bold;">
+                    DPU Smart Report is
+                    <strong style="color: #d45c00;">India's most innovative and user-friendly report</strong>,
+                    presenting
+                    all the essential
+                    information in an intuitive format to support customers' health and lifestyle improvements.
+                </p>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                <div style="width: 48%; margin-bottom: 20px;">
+                    <h2 style="font-size: 18px; color: #82423C; margin-bottom: 10px;">1. Health Analysis</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 50px;">
+                        <div style="text-align: center; position: relative;">
+                            <img src="Monitor.png"
+                                style="display: block; margin: 0 auto; position: absolute; top: 100%; left: 50%; transform: translate(-20%, -70%);">
+                            <img src="Ellipse 3.png" alt="Ellipse">
+                        </div>
+                        <p style="font-size: 14px; color: #555; line-height: 1.6; font-weight:600">This section
+                            summarizes your test results.</p>
+                    </div>
+                </div>
+
+                <div style="width: 48%; margin-bottom: 20px;">
+                    <h2 style="font-size: 18px; color: #82423C; margin-bottom: 10px;">4. Health Advisory</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap:50px;">
+                        <div style="text-align: center; position: relative;">
+                            <img src="Counselling.png"
+                                style="display: block; margin: 0 auto; position: absolute; top: 100%; left: 50%; transform: translate(-20%, -70%);">
+                            <img src="Ellipse 3.png" alt="Ellipse">
+                        </div>
+                        <p style="font-size: 14px; color: #555; line-height: 1.6; font-weight:600">An Advisory section
+                            suggesting what modifications to bring in your nutrition & lifestyle, recommendations on
+                            your BMI.</p>
+                    </div>
+                </div>
+
+                <div style="width: 48%; margin-bottom: 20px;">
+                    <h2 style="font-size: 18px; color: #82423C; margin-bottom: 10px;">2. Historical Charts</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap:50px;">
+                        <div style="text-align: center; position: relative;">
+                            <img src="Analytics.png"
+                                style="display: block; margin: 0 auto; position: absolute; top: 100%; left: 50%; transform: translate(-20%, -70%);">
+                            <img src="Ellipse 3.png" alt="Ellipse">
+                        </div>
+                        <p style="font-size: 14px; color: #555; line-height: 1.6; font-weight:600">These charts are a
+                            way to measure and keep a track of how your health has progressed over time.</p>
+                    </div>
+                </div>
+
+                <div style="width: 48%; margin-bottom: 20px;">
+                    <h2 style="font-size: 18px; color: #82423C; margin-bottom: 10px;">5. General Recommendations</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap:50px;">
+                        <div style="text-align: center; position: relative;">
+                            <img src="Recommendation letter.png"
+                                style="display: block; margin: 0 auto; position: absolute; top: 100%; left: 50%; transform: translate(-20%, -70%);">
+                            <img src="Ellipse 3.png" alt="Ellipse">
+                        </div>
+                        <p style="font-size: 14px; color: #555; line-height: 1.6; font-weight:600">Brief view of general
+                            preventive test recommendations categorized by age groups.</p>
+                    </div>
+                </div>
+
+                <div style="width: 48%; margin-bottom: 20px;">
+                    <h2 style="font-size: 18px; color: #82423C; margin-bottom: 10px;">3. Lab Test Results</h2>
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap:50px;">
+                        <div style="text-align: center; position: relative;">
+                            <img src="Lab.png"
+                                style="display: block; margin: 0 auto; position: absolute; top: 100%; left: 50%; transform: translate(-20%, -70%);">
+                            <img src="Ellipse 3.png" alt="Ellipse">
+                        </div>
+                        <p style="font-size: 14px; color: #555; line-height: 1.6; font-weight:600">This section provides
+                            an exhaustive view of which tests you have taken.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding: 0px 20px;
+            background-color: #82423C;
+            border-top: 1px solid #ccc;
+            font-size: 12px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;">
+            <div>
+                <p>Email : ccl.medical@dpu.edu.in</p>
+                <p>Tel. : +91 2027805900 / 27805944 / 27805916</p>
+            </div>
+            <p>www.dpuhospital.com</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

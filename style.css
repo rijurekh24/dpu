@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#report {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  background-color: #fff;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #e95a24;
+}
+
+/* Button Styling */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e95a24;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d85020;
+}
+
+@media print {
+  button {
+    display: none;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #report {
+    box-shadow: none;
+    padding: 10mm;
+  }
+}
